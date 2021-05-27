@@ -10,7 +10,7 @@ msfs-simconnect-nodejs uses a native NodeJS addon and therefore, it must be comp
 
 ### 1.) Install the Node module
 
-`npm install msfs-simconnect-node`
+`npm install msfs-simconnect-nodejs`
 
 ### 2.) Copy your SimConnect SDK files
 You need to copy your own SimConnect SDK files to msfs-simconnect-nodejs. 64 bit version is also supported.
@@ -36,10 +36,14 @@ Calls to `requestDataOnSimObject` and `requestDataOnSimObjectType` will return t
 ObjectID 1 is the user.
 
 ## Requirements
-* NodeJS 64 bit
+* NodeJS v12.18 64 bit
+* NPM v6.14
 * Microsoft Visual Studio 2019 (Community)
 * Python 3 (for compilation)
 * SimConnect SDK 
+
+### 2020-11-10
+* Works with SimConnect SDK 0.7.1
 
 ## Thanks
 Inspired by https://github.com/EvenAR/node-simconnect
